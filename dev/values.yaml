@@ -139,7 +139,10 @@ extraEnvVarsSecret: ""
 ##   - git:4.13.0
 ##   - configuration-as-code:1569.vb_72405b_80249
 ##
-plugins: []
+plugins:
+  - ldap:659.v8ca_b_a_fe79fa_d
+  - junit:1177.v90374a_ef4d09
+  - git:5.0.0
 ## @param extraPlugins List of plugins to install in addition to those listed in `plugins`
 ##
 extraPlugins: []
