@@ -98,7 +98,7 @@ jenkinsUser: user
 ## @param jenkinsPassword Jenkins user password
 ## Defaults to a random 10-character alphanumeric string if not set
 ##
-jenkinsPassword: ""
+jenkinsPassword: jenkins
 ## @param jenkinsHost Jenkins host to create application URLs
 ##
 jenkinsHost: ""
@@ -139,10 +139,7 @@ extraEnvVarsSecret: ""
 ##   - git:4.13.0
 ##   - configuration-as-code:1569.vb_72405b_80249
 ##
-plugins:
-  - ldap:659.v8ca_b_a_fe79fa_d
-  - junit:1177.v90374a_ef4d09
-  - git:5.0.0
+plugins: []
 ## @param extraPlugins List of plugins to install in addition to those listed in `plugins`
 ##
 extraPlugins: []
